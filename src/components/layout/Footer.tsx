@@ -84,6 +84,8 @@ export function Footer() {
           <FooterLink icon={Icons.TWITTER} href={conf().TWITTER_LINK}>
             {t("footer.links.twitter")}
           </FooterLink>
+          <FooterLink icon={Icons.MAIL} href="/support">
+          </FooterLink>
           <div className="inline md:hidden">
             <Dmca />
           </div>
