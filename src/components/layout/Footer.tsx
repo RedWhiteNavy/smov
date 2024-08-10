@@ -85,7 +85,7 @@ export function Footer() {
             {t("footer.links.twitter")}
           </FooterLink>
           <FooterLink icon={Icons.MAIL} href="/support">
-          {t("global.pages.support")}
+            {t("global.pages.support")}
           </FooterLink>
           <div className="inline md:hidden">
             <Dmca />
