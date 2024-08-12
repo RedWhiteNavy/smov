@@ -155,7 +155,6 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               {t("navigation.menu.logout")}
             </DropdownLink>
           ) : null}
-          <Divider />
         </div>
       </Transition>
     </div>
